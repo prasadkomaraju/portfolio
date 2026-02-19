@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION FORM</title>
+</head>
+<body>
+
+    <h1><u>REGISTRATION FORM</u> :</h1>
+    <ul> <li><B>Name :</B>  <input type ="text" placeholder="Your name" required></li></ul>
+    <ul> <li><B>Gmail :</B>  <input type ="text" placeholder="Enter your Gmail" required></li></ul>
+    <ul> <li><B>Contact number :</B>  <input type ="tel" placeholder="Enter your Contact number" maxlength="10" required></li></ul>
+    <p><ul><li><B>Gender :</B>  <input type ="radio" name="Gender" value="Male">Male
+        <input type ="radio" name="Gender" value="Female">Female
+        <input type ="radio" name="Gender" value="Others">Others</li></ul></p> 
+    <ul><li><B>Qualification :</B> <select name="Branch" id="Branch" required>
+        <option disabled selected>Select your Course</option>
+        <option value="ECE">ECE</option>
+        <option value="CSE">CSE</option>
+        <option value="IT">IT</option>
+        <option value="CIVIL">CIVIL</option>
+        <option value="MECHANICAL">MECHANICAL</option>
+        <option value="DATA SCIENCE">DS</option>
+        <option value="AIML">AIML</option>
+    </select>
+    </li></ul>
+    <ul><li><B>College Name :</B>  <input type ="text" placeholder="Enter your College name" required></li></ul>
+    <ul><li><B>CGPA :</B>  <input type ="text" placeholder="Enter your CGPA" required></li></ul>
+    <ul><li><B>Date of Birth :</B><input type="date" name="DOB" id="DOB" required></li></ul> 
+    <ul><li><B>Parent Name :</B>  <input type ="text" placeholder="Enter Parent name" required ></li></ul>
+    <ul><li><B>Parent Contact number :</B>  <input type ="tel" placeholder="Enter Parent Contact number" maxlength="10" required></li></ul>
+    <ul><li><B>Interested Course :</B> <select name="Branch" id="Branch" required>
+        <option disabled selected>Select your Course</option>
+        <option value="M.TECH">M.TECH</option>
+        <option value="MBA">MBA</option>
+        <option value="M.COM">M.COM</option>
+        <option value="MASTERS">MASTERS</option>
+    </select>
+    </li></ul> 
+    <ul><li><B>Address :</B> <textarea name="Address" id="Address" placeholder="Enter your Address" required></textarea></li></ul> <br>
+    <input type="checkbox" name="Terms & conditions" id="Terms & conditions">I accept all Terms & conditions
+    <br><br>
+    <input type="submit">
+    <input type="reset" name="reset" id="reset"> 
+</body>
+</html>
